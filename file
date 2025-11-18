@@ -1,0 +1,22 @@
+git branch <branch-name>
+git checkout -b <branch-name>
+git checkout <branch-name>
+git add .
+git commit -m "your message"
+git checkout main
+git merge <branch-name>
+git push -u origin <branch-name>
+---------------------------------
+git clone <your-fork-url>
+git add .
+git commit -m "changes"
+git push
+--------------------------
+git init,
+git add .,
+git commit -m "your commit message",
+git branch -M main,
+git remote add origin <your-repo-URL>,
+git push -u origin main
+-------------------------
+git pull origin main
