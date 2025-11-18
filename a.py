@@ -7,5 +7,7 @@ class b:
 class c(a,b):
     def gem(self):
         print("hellooooooo")
+class z(b):
+    pass
 j = c()
 j.gem()
