@@ -1,0 +1,41 @@
+Steps:
+    git config --global user.name "Your Name"
+    git config --global user.email "your@email.com"
+
+
+
+
+
+
+git status
+git diff
+git log
+
+
+old versions
+  git show commit-id file name.   ---> single file output in terminal
+  git checkout commit-id -- * or particular file ----> all changes output on file itself
+  git checkout master -- *          back to new version
+
+negative test--made some mistake and wanna go back
+    git restore .
+    git restore --staged .
+    git restore --worktree .
+
+---------------------------------------------online repo-------------------------------------------------
+
+1. official commonds on repo
+
+2. to check links go with 
+        1. git remote
+        2. git remote -v
+3. branching. and merging
+    1. git branch ---> to check branch
+    2. git branch branchName --> new branch
+    3. git checkout branchNamne ---> switch to new branch
+    4. git add * ---> to make all changes
+    5. git status
+    6. git commit -m "any message"
+    7. git log
+    8. git merge branchName
+    9. 
